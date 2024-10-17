@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfoli</title>
+    <link href="/style.css" rel="stylesheet" />
+  </head>
+  <body class="m-0 bg-gray-100 p-0 font-sans">
+    <header
+      class="fixed left-0 top-0 z-10 w-full bg-blue-500 py-10 text-center text-white"
+    >
+      <nav>
+        <ul class="flex list-none justify-center gap-14">
+          <li>
+            <a
+              class="text-lg text-white no-underline hover:text-blue-200 hover:underline"
+              href="#about"
+              >Sobre mi</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-lg text-white no-underline hover:text-blue-200 hover:underline"
+              href="#projects-preview"
+              >Projectes</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-lg text-white no-underline hover:text-blue-200 hover:underline"
+              href="#contact-cta"
+              >Contacte</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="pt-40">
+      <section
+        id="about"
+        class="flex flex-col items-center justify-center bg-gray-100 px-5 pb-2"
+      >
+        <h2 class="mb-5 text-center text-xl font-bold">Sobre mi</h2>
+        <div
+          class="flex max-w-5xl flex-col items-center justify-center gap-10 md:flex-row"
+        >
+          <div class="mx-auto max-w-lg">
+            <p>
+              Hola! Soc la Paula Comas, tinc 22 anys i soc de Tona.
+              <br />Actualment estic estudiant desenvolupament d'aplicacions web
+              a l'institut cirvianum de Torelló.
+            </p>
+          </div>
+          <div class="mx-auto max-w-xs">
+            <img
+              class="h-auto max-w-full rounded-xl"
+              src="img/sobre-mi.png"
+              alt="Sobre mi"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="projects-preview" class="bg-gray-100 px-5 py-20">
+        <h2 class="mb-10 text-center text-xl font-bold">Projectes</h2>
+        <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+          <div class="rounded-md bg-white p-10 shadow-lg">
+            <img
+              class="h-80 w-full rounded-md object-cover"
+              src="img/projecte-1.png"
+              alt="Projecte 1"
+            />
+            <h3 class="mb-5 mt-5 text-lg font-semibold">Reserves d'hotel</h3>
+            <p>
+              Aquest projecte consisteix en una aplicació en Java per gestionar
+              les reserves d'un hotel.
+            </p>
+          </div>
+
+          <div class="rounded-md bg-white p-10 shadow-lg">
+            <img
+              class="h-80 w-full rounded-md object-cover"
+              src="img/projecte-2.png"
+              alt="Projecte 2"
+            />
+            <h3 class="mb-5 mt-5 text-lg font-semibold">
+              App per buscar feina
+            </h3>
+            <p>
+              Aquest projecte consisteix en una aplicació amb interfície gràfica
+              de Java per buscar feina.
+            </p>
+          </div>
+
+          <div class="rounded-md bg-white p-10 shadow-lg">
+            <img
+              class="h-80 w-full rounded-md object-cover"
+              src="img/projecte-3.png"
+              alt="Projecte 3"
+            />
+            <h3 class="mb-5 mt-5 text-lg font-semibold">
+              Gestio de llibres d'una biblioteca
+            </h3>
+            <p>
+              Aquest projecte consisteix en una aplicació de PHP per gestionar
+              els llibres d'una biblioteca.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="contact-cta"
+        class="bg-blue-900 py-10 text-center text-white"
+      >
+        <h2 class="text-2xl font-bold">Contacte</h2>
+        <p class="mt-5">paulacomas7@gmail.com</p>
+      </section>
+    </main>
+
+    <footer class="bg-blue-500 py-4 text-center text-white">
+      <p>&copy; 2024 - Paula Comas</p>
+    </footer>
+  </body>
+</html>
